@@ -5,15 +5,9 @@
 $manifest = array();
 
 $manifest['name']        = __( 'Update', 'fw' );
-$manifest['slug']        = 'unysonplus-update';
-$manifest['description'] = __( 
-    'Keeps your framework, extensions, and theme up to date.', 
-    'fw' 
-);
+$manifest['description'] = __( 'Keeps your framework, extensions, and theme up to date.', 'fw' );
 
 $manifest['version']     = '1.0.13';
-$manifest['display']     = true;
-$manifest['standalone']  = true;
 
 // Repo Info
 $manifest['github_update'] = 'UnysonPlus/UnysonPlus-Update-Extension';
